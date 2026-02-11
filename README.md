@@ -37,21 +37,32 @@
 
 ----- 
 ultimatecyber-tech-website/
-├── 📁 public/                    # Static website (ready to deploy)
-│   ├── 📄 index.html           # Main homepage
+├── 📁 public/                    # ✅ STATIC WEBSITE (Option A)
+│   ├── 📄 index.html           # Your live homepage
 │   ├── 📄 style.css            # Styles
 │   └── 📄 script.js            # JavaScript
-├── 📁 src/                      # React source (optional)
-│   ├── 📄 App.jsx             # React app
+│
+├── 📁 src/                      # ✅ REACT APP (Option B)
+│   ├── 📄 App.jsx             # Main React component
 │   ├── 📄 main.jsx            # React entry point
+│   ├── 📄 index.css           # React styles
 │   └── 📁 components/         # React components
-├── 📁 netlify/functions/       # Serverless functions
-├── 📁 .github/workflows/       # GitHub Actions
-├── 📄 netlify.toml            # Netlify configuration
+│       ├── 📄 Header.jsx      # Header component
+│       └── 📄 Header.css      # Header styles
+│
+├── 📁 netlify/functions/        # ✅ SERVERLESS APIS
+│   └── 📄 hello.js            # Example function
+│
+├── 📁 .github/workflows/        # ✅ AUTO-DEPLOY
+│   └── 📄 deploy.yml          # GitHub Actions
+│
+├── 📄 netlify.toml            # Netlify config
 ├── 📄 package.json            # Dependencies
-└── 📄 README.md               # This file
-
+├── 📄 README.md               # This file
+├── 📄 .env.example            # Environment variables
+└── 📄 setup.sh                # Setup script
 ```
+
 ## 🚀 Quick Start Guide
 ### **Option A: Static Website (Recommended for Beginners)**
 
