@@ -17,8 +17,8 @@
 
 ## 🚀 Quick Start
 
-### Option A: Static Website (Recommended)
-```bash
+### Option A: Static Website
+
 # Install dependencies
 npm install
 
@@ -30,3 +30,14 @@ npm run build
 
 # Deploy to Netlify
 npm run deploy
+
+### Option B: React Development
+
+# Install React dependencies
+npm install react react-dom vite @vitejs/plugin-react
+
+# Update package.json scripts
+# Change "dev" to "vite" and "build" to "vite build"
+
+# Start React dev server
+npm run dev:react
